@@ -1,9 +1,7 @@
 # A `controlled input` is a coding pattern in react where you have complete control over the input's state, value, and `onChange` events.
 
 React docs:
-```
 In HTML, form elements such as <input>, <textarea>, and <select> typically maintain their own state and update it based on user input. In React, mutable state is typically kept in the state property of components, and only updated with setState().
-```
 
 It's good practice to use controlled components because React can keep these values in state, in a single source of truth. We _control_ what happens to the form's value and how it changes.
 
