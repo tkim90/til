@@ -16,6 +16,6 @@ let obj = { a: undefined, b: 'hi' };
 const replacer = (key, value) =>
   typeof value === 'undefined' ? null : value;
 
-const stringified = JSON.stringify(user, replacer);
+const stringified = JSON.stringify(obj, replacer);
 // returns "{\"a\":null,\"b\":\"hi\"}"
 ```
